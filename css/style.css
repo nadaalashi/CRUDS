@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #444;
+}
+.cruds{
+    width: 80%;
+    margin: auto;
+}
+button{
+    color: #fff;
+    background-color: #109c85;
+    width: 100%;
+    height: 35px;
+    transition: 0.35s;
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+button:hover{
+    background-color: #047764;
+    letter-spacing: 1.5px;
+}
+/* start head  */
+.cruds .head{
+    text-align: center;
+    margin: 10px 0px;
+    color: #fff;
+}
+.cruds .head h2{
+    margin-bottom: 5px;
+}
+.cruds .head p{
+    font-size: 23px;
+}
+/* end head  */
+
+/* start inputs  */
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    margin: 4px 0px;
+    border-radius: 4px ;
+    -webkit-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -o-border-radius: 4px ;
+    padding: 4px;
+    transition: 0.35s;
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+}
+input:focus{
+    background-color: #111;
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+.priceDetails {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 12px;
+}
+#total{
+    background-color: #f5160685;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 5px 2px;
+    width: 35%;
+    height: 25px;
+}
+#total::before{
+    content: 'Total: ';
+}
+/* end inputs  */
+
+/* start outputs  */
+.searchArea{
+    margin-top: 10px;
+}
+.searchWay{
+    display: flex;
+    justify-content: space-between;
+}
+.searchWay button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+th,td{
+    padding: 5px;
+    color: #fff;
+}
+#update,#delete{
+    cursor: pointer;
+}
+#deleteAll{
+    margin: 20px 0;
+}
+#deleteAll button{
+    height: 35px;
+}
+/* end outputs  */
